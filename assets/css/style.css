@@ -1,0 +1,130 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+.banner{
+	height: 100vh;
+	width: 100%;
+	color:rgb(0, 0, 0);
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 50px;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-decoration: none;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 15px  30px;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	text-transform: capitalize;
+}
+h1{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 75px;
+}
+h2 {
+	color: rgb(0, 0, 0);
+}
+h3{
+	color: white;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+h4{
+	color: #fcfc;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+h5{
+	color: white;
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #191919;
+}
+.about-text{
+	width: 550px;
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-text h2{
+	color: white;
+	font-size: 80px;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+}
+.about-text h5{
+	color: white;
+	letter-spacing: 3px;
+	font-size: 20px;
+	margin-bottom: 20px;
+	text-transform: capitalize;
+}
+.about-text p{
+	color: rgb(255, 255, 255);
+	letter-spacing: 1px;
+	line-height: 30px;
+	font-size: 20px;
+	margin-bottom: 45px;
+}
+.service{
+	background: #101010;
+	width: 100%;
+	padding: 100px 0px;
+}
+.title h2{
+	color: white;
+	font-size: 80px;
+	width: 1130px;
+	margin: 40px auto;
+	text-align: center;
+}
+.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 350px;
+}
+.card{
+	height: 360px;
+	width: 340px;
+	padding: 40px 70px;
+	background: #191919;
+	margin: 30px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+
+footer{
+	position: relative;
+	width: 100%;
+	height: 350px;
+	background: #101010;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+	color: white;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
